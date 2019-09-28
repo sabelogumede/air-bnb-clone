@@ -1,0 +1,114 @@
+html body {
+    color: #070707;
+}
+
+
+.cover-header {
+    background-image: url("images/cover.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-color: aqua!important;
+    min-height: 400px;
+}
+
+.cover-header-wrapper {
+    /* min-height: 390px; */
+    color: #ffffff;
+}
+
+.cover-banner-navigation {
+    height: 80px;;
+}
+
+.cover-banner-leadCopy {
+    /* border: 1px  solid black; */
+    min-height: 200px;
+    padding: 10px;
+}
+
+.cover-banner-leadCopy .lead-copy {
+    margin: 0px;
+}
+
+.cover-banner-leadCopy .find-places {
+    padding-left: 0px!important;
+}
+
+.cover-banner-leadCopy .host-people  {}
+
+/* --------------------------------------------------- */
+.form-section {
+    background-color: blueviolet;
+    padding: 60px 0px;
+}
+
+.nested-row-input {}
+
+.nested-row button {}
+
+.nested-row-btn {
+    /* float: right; */
+    margin-left: 8%;
+}
+
+/* -----------------------area-guest-reviews---------------------------- */
+.area-guest-reviews {
+    padding-top: 20px;
+    /* margin: 0px; */
+}
+.cards-section .card {
+    border: 0px!important;
+}
+.cards-section .card-body {
+    padding: 1.25rem 0;
+}
+
+.cards-section .card-body img {
+    width: 55px;
+}
+.cards-section .card-body .media-body {
+    margin-left: 5px;
+}
+
+.checked {
+    color: orange;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .cover-header {
+        background-color: aqua!important;
+        /* min-height: 200px; */
+    }
+
+    .nested-row-input {
+        margin: 0px 15px 0px 15px;
+        max-width: 287px;
+    }
+
+    .nested-row-btn {
+        /* float: right; */
+        margin: 15px 15px 15px 15px;
+        max-width: 287px;
+    }
+
+    /* -----------------------area-guest-reviews---------------------------- */
+    .area-guest-reviews {
+        /* padding: 0px;
+        margin: 0 15px; */
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
